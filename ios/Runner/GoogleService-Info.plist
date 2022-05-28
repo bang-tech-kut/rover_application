@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>90976711978-fg6vfnf7jnl5lp8gsaguq6klgvlog5b9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.90976711978-fg6vfnf7jnl5lp8gsaguq6klgvlog5b9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBSHIx-XFADJ3Pn98NbCmjlwsB1Z3dJPWw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>90976711978</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>net.shy.sample.sample</string>
+	<key>PROJECT_ID</key>
+	<string>rover-70c05</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rover-70c05.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:90976711978:ios:6b67f4e8f9fcf530cc1a53</string>
+</dict>
+</plist>
