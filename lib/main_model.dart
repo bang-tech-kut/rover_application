@@ -6,10 +6,10 @@ class MainModel extends ChangeNotifier {
   double lat = 0;
 
   Future getPosition() async {
-    final snapshot = await FirebaseFirestore.instance.collection('place').get();
-    final docs = snapshot.docs;
-    this.lat = docs.lat;
-    this.lon = docs.lon;
+    final snapshot = FirebaseFirestore.instance.collection('place').doc('vEHSzDxi8X4FGiNm9tEY');
+    final doc = await snapshot.get();
+    this.lat = doc.get('lat');
+    this.lon = doc.get('lon');
     notifyListeners();
   }
 }

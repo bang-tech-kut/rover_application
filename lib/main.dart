@@ -1,11 +1,9 @@
-import 'dart:ui';
 import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:provider/provider.dart';
-
 import 'main_model.dart';
 
 void main() => runApp(MyApp());
@@ -82,12 +80,6 @@ class MapSampleState extends State<MapSample> {
                },
            );
         }),
-        floatingActionButton: FloatingActionButton.extended(
-          // ボタン押されたらカレントロケーションメソッドへ
-          onPressed: _currentLocation,
-          label: Text('CurrentLocation'),
-          icon: Icon(Icons.directions_boat),
-        ),
       ),
     );
   }
